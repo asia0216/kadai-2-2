@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ストップウォッチ</title>
+    <link rel="stylesheet" href="time.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+  </head>
+  
+  <body>
+    <h3>ストップウォッチ</h3>
+    
+    <div class="stop_wacth"> 
+      <p id="hour">0</p><p>:</p>
+      <p id="min">0</p><p>:</p>
+      <p id="seconds">0</p><p>:</p>
+      <p id="conma">0</p>
+    </div>
+    
+    <button class="start" id="start" onclick="clickStart()">スタート</button>
+    
+    <button class="stop" id="stop" onclick="clickStop()" disabled>ストップ</button>
+    
+    <button class="reset"  id="reset" onclick="clickReset()" disabled>リセット</button>
+    
+    <script type="text/javascript" src="time.js" charset="utf-8"></script>
+  </body>
+</html>
